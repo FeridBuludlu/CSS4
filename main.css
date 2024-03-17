@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+}
+
+.title .icon i{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgba(52, 58, 64, 0.5);
+    line-height: 50px;
+    transition: 0.3s;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.title  .up{
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    background-color: rgba(52, 58, 64, 0.5);
+    line-height: 50px;
+    transition: 0.3s;
+}
+.title .up:hover{
+    background-color: rgba(26,29,32,0.7);
+}
+
+.title .icon i:hover{
+    background-color: rgba(26,29,32,0.7);
+}
+.title .title_page{
+    text-align: center;
+    padding-bottom: 15.7rem;
+    padding-top: 15.7rem;
+}
+.title .title_page h1{
+    font-size: 85px;
+    font-family: "Source Sans 3", sans-serif;
+}
+.title .title_page h3{
+    font-family: "Source Sans 3", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.title .title_page a{
+    background-color:  #1d809f ;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    
+}
+.title .title_page a:hover{
+    background-color:  #17667F ;
+    
+}
+#first .first_page{
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+
+#first .first_page .tag{
+    background-color:  #212529 ;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+}
+#first .first_page .tag:hover{
+    background-color: #424649;
+}
+#first .first_page h2{
+    font-size: 31px;
+    font-family: "Source Sans 3", sans-serif;
+}
+#first .first_page p{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#first .first_page p a{
+    color:  #1d809f;
+}
+
+#second{
+    background-color: #1D809F;
+}
+
+#second .second_page{
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+#second .second_page h3{
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #ECB807;
+}
+#second .second_page h2{
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
+    font-size: 48px;
+}
+#second .services .service i{
+    font-size: 2.25rem;
+    line-height: 7.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    background-color: white;
+    color: #1D809F;
+    box-shadow: 0px 3px 3px 0px;
+}
+#second .services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+#second .services .service p{
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #FFFFFFB3;
+
+}
+#second .services .service strong{
+    font-size: 23px;
+    color: #FFFFFF;
+    font-family: "Source Sans 3", sans-serif;
+    
+}
+#third{
+    background-image: url(https://images.unsplash.com/photo-1510070009289-b5bc34383727?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+
+}
+#third .third_page{
+    text-align: center;
+    padding-bottom: 15.8rem;
+    padding-top: 15.8rem;
+}
+#third .third_page a{
+    background-color:  #1d809f ;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+}
+#third .third_page a:hover{
+    background-color: #17667F;
+}
+#third .third_page h1{
+    font-size: 56px;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+#fourth .portfolio{
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+#fourth .portfolio h3{
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    color: #ECB807;
+}
+#fourth .portfolio h2{
+    font-family: "Source Sans 3", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+}
+#fourth{
+    padding-bottom:100px;
+}
+#fourth .cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#fourth .cards .card {
+    position: relative;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#fourth .cards .card:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+#fourth .cards .card img{
+    width: 580px; 
+}
+#fourth .cards .card .card_text{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+#fourth .cards .card .card_text h3{
+    font-size: 13px;
+    font-family: "Source Sans 3", sans-serif;
+}
+#fourth .cards .card .card_text p{
+    font-size: 19px;
+    font-weight: lighter;
+    font-family: "Source Sans 3", sans-serif;
+}
+#fifth .fifth_page{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    background-color: #1D809F;
+    text-align: center;
+}
+#fifth .fifth_page h2{
+    font-size: 29px;
+    font-family: "Source Sans 3", sans-serif;
+    color: black;
+}
+#fifth .fifth_page .link{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 30px;
+}
+#fifth .fifth_page .link .tag1{
+    text-decoration: none;
+    background-color:  #ffffff ;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+}
+#fifth .fifth_page .link .tag1:hover{
+    background-color: #d3d4d5;
+}
+#fifth .fifth_page .link .tag2{
+    text-decoration: none;
+    background-color:  #000000 ;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+}
+#fifth .fifth_page .link .tag2:hover{
+    background-color: #424649;
+}
+
+#conclusion .icons{
+    width: 100%;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+#conclusion .icons i{ 
+    width: 4rem;
+    border-radius: 50%;
+    line-height: 4.3rem;
+    color: white;
+    background-color: #1D809F;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    font-size: 1.4rem;
+    text-align: center;
+}
+#conclusion .icons i:hover{ 
+    background-color: #124d5f;
+}
+#conclusion .copyright{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
